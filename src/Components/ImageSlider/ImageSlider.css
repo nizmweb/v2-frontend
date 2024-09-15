@@ -1,0 +1,134 @@
+.image-slider{
+    padding:  0px;
+    position: relative;
+    margin: 0 0px;
+}
+/* src/Slider.css */
+.image-slider .slider-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+.image-slider .slider-container button { 
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    outline: none;
+    font-size: 18px;
+    border: 2px solid #c2ab92;
+    color: #c2ab92;
+    background: #00000000;
+    transition: 0.2s;
+}
+
+
+.image-slider .slider-container button:hover { 
+    font-weight: 400;
+    letter-spacing: 1px;
+    outline: none;
+    border: 2px solid #00000000;
+    color: #fff;
+    background: #c2ab92;
+    transition: 0.3s;
+    
+}
+
+.image-slider .slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.image-slider .slider-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.image-slider .slider-item {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.image-slider .slider-item img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-slider .slider-item h3 {
+    font-size: 24px;
+    width: 60%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000;
+}
+
+.image-slider .prev2,.image-slider .next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #c2ab92;
+    color: #fff;
+    background: #c2ab92;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.image-slider .prev2 {
+    left: 10px;
+}
+
+.image-slider .next2 {
+    right: 10px;
+}
+
+.image-slider .prev2:hover, .image-slider .next2:hover {
+    border: 2px solid #c2ab92;
+    color: #c2ab92;
+    background: #00000000;
+}
+
+.di-none{
+    display: none;
+}
+@media (max-width:768px) {
+    
+.image-slider .prev2,
+.image-slider .next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #c2ab92;
+    color: #fff;
+    background: #c2ab92;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.image-slider .prev2 {
+    left: 0px;
+}
+
+.image-slider .next2 {
+    right: 0px;
+}
+
+.image-slider .prev2:hover,.next2:hover {
+    border: 2px solid #c2ab92;
+    color: #c2ab92;
+    background: #00000000;
+}
+}
