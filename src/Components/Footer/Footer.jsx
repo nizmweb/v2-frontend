@@ -59,8 +59,8 @@ const Footer = () => {
         ></iframe>
       </div>
       <div className="copyright">
-        <p >Copyright @ 2024 V2 Holdigs</p>
-        <p className="portfolio"> Developed by <a href="https://sheikhnizam.xyz">Sheikh Nizam</a> </p>
+        <p >@ 2024 Official website of V2holdings HDPL | All Rights Reserved</p>
+        {/* <p className="portfolio"> Developed by <a href="https://sheikhnizam.xyz">Sheikh Nizam</a> </p> */}
       </div>
     </footer>
   );
