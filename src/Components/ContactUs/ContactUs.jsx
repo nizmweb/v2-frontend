@@ -134,7 +134,7 @@ const ContactUs = ({type, title}) => {
           </div>
           {
   uploadSuccess ? (
-    title !== 'V2 Vajra Elegance' ? (
+    title !== 'V2 VAJRA ELEGANCE' ? (
       <p
         style={{
           color: uploadSuccess ? 'white' : 'red',
