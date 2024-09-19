@@ -45,7 +45,7 @@ const Category = () => {
   return (
     <div className='category'>
       {latest.length === 0 ? (
-        <Properties title={`Loading Properties`} property={[]} />
+        <Properties title={`Loading Projects`} property={[]} />
       ) : (
         <Properties title={`${type} Projects`} property={latest} />
       )}

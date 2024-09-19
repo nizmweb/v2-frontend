@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 import Hero from '../../Components/Hero/Hero';
-import About from '../../Components/About/About';
 import Testimonial from '../../Components/Testimonial/Testimonial';
 import PropertyList from '../../Components/PropertyList/PropertyList';
 import Goals from '../../Components/Goals/Goals';
@@ -42,13 +41,12 @@ ReactGA.send({ hitType: "pageview", page: "/", title: "Home Page Visit" });
   return (
     <div className='home'>
       <Hero />
-      <About />
       <PropertyList title={"CURRENT PROJECTS"} property={latest} />
       <Testimonial />
       <Goals />
       <ContactUs type={1}/>
       <CallActions />
-      <Footer />
+      <Footer map={'home'} />
     </div>
   );
 };

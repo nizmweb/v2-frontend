@@ -46,7 +46,7 @@ const Footer = ({map}) => {
           <p>Mon-Sun: 10:00 am to 07:00 pm</p>
         </div>
       </div>
-      <div className={`map-details ${map==="residential"?'di-none':''}`}>
+      <div className={`map-details ${map!=="home"?'di-none':''}`}>
         <iframe
         title="map location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.03288625010345!2d77.56770334341246!3d12.938146393324637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158c00b2bf89%3A0xae8511c89c4a9f62!2sV2%20Holdings!5e0!3m2!1sen!2sin!4v1724411559304!5m2!1sen!2sin"
