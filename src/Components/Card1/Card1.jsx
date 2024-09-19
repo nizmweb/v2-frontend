@@ -5,7 +5,7 @@ const Card1 = ({image,title,price, address, propertyid  }) => {
   return (
     <Link to={`/property-details/${propertyid}`} className='card-1'>
         <img src={image} alt="property-image" />
-        <p className='status-prop'>FOR SALE</p>
+        {/* <p className='status-prop'>FOR SALE</p> */}
         <div className="content">
             <div className="bottom-details">
                 <div className="shown-div flex-box">

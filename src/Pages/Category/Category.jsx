@@ -3,7 +3,7 @@ import './Category.css';
 import { useParams } from 'react-router-dom';
 import Properties from '../../Components/Properties/Properties';
 import Footer from '../../Components/Footer/Footer';
-import { base_url, dataList } from '../../data';
+import { base_url } from '../../data';
 
 const Category = () => {
   const { type } = useParams();
@@ -45,11 +45,11 @@ const Category = () => {
   return (
     <div className='category'>
       {latest.length === 0 ? (
-        <Properties title={`No Properties Found`} property={[]} />
+        <Properties title={`Loading Properties`} property={[]} />
       ) : (
         <Properties title={`${type} Projects`} property={latest} />
       )}
-      <Footer />
+      <Footer map={type}/>
       
     </div>
   );
