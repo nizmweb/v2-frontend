@@ -2,11 +2,30 @@
     padding: 0;
     margin: 0;
     background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .profilec .img-div{
     background: #000;
     height: 100vh;
     padding-bottom: 40px;
+}
+.profilec .text-area-p{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 80px;
+}
+.profilec .text-area-p p{
+    color: #fff;
+    width: 80%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    line-height: 24px;
 }
 .profilec .img-div img{
     width: 100%;
@@ -27,4 +46,12 @@
     object-fit: cover;
     object-position: center;
 }
+
+.profilec .text-area-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    }
 }
