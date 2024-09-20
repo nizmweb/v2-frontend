@@ -11,6 +11,7 @@ import EnquiryDetail from './Components/EnquiryDetail/EnquiryDetail';
 import ReactGA from "react-ga4";
 import Favicon from 'react-favicon';
 import fav_icon from './Components/Assets/logo.png' 
+import CompanyProfile from './Pages/CompanyProfile/CompanyProfile';
 
 // Initialize Google Analytics
 ReactGA.initialize("G-1PRYXYKDP9");
@@ -30,6 +31,7 @@ const App = () => {
         <Route path='/category/:type' element={<Category />} />
         <Route path='/property-details/:id' element={<PropertyDetails />} />
         <Route path='/awards' element={<Awards />} />
+        <Route path='/company' element={<CompanyProfile/>} />
         <Route path='/leadership' element={<Leadership />} />
         <Route path='/v2-admin' element={<Admin />} />
         <Route path='/v2-admin/enquiry/:id' element={<EnquiryDetail />} />

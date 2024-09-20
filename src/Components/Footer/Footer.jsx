@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { CiMobile2 } from "react-icons/ci";
 
 const Footer = ({map}) => {
   return (
@@ -16,7 +17,7 @@ const Footer = ({map}) => {
         <div className="row">
           <h3 className="sub-title">Contact</h3>
           <p>
-            Mobile: <br />
+          Mobile : <br />
             +91 9945255552 <br />
             +91 9845698136
           </p>
@@ -25,25 +26,26 @@ const Footer = ({map}) => {
             080 2660 2666 <br />
             080 2660 2667
           </p>
-          <p>
-            <br />
+          <p>   Email: <br />
             V2holdings.blr@gmail.com <br />
-            {/* v2holdings.blr@rediffmail.com */}
           </p>
         </div>
         <div className="row">
           <h3 className="sub-title">Sales and Enquiry</h3>
           <p>
-            Mobile: <br />
+          Mobile : <br />
             +91 99452 55552 <br />
             +91 99452 55553 <br />
             +91 90717 12000 <br />
             +91 99452 55550 <br />
+            <br/>
+            Email: <br />
+            v2vajraelegance@gmail.com <br />
           </p>
         </div>
         <div className="row">
           <h3 className="sub-title">Opening Hours</h3>
-          <p>Mon-Sun: 10:00 am to 07:00 pm</p>
+          <p className="opening-date">Mon-Sun: 10:00 am to 07:00 pm</p>
         </div>
       </div>
       <div className={`map-details ${map!=="home"?'di-none':''}`}>

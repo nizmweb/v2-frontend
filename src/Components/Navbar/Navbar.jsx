@@ -79,7 +79,8 @@ const Navbar = () => {
         <div className="dropdown">
           <Link to="#" onClick={toggleDropdown2}>About Us <FaAngleDown/> </Link>
           <div className={`dropdown-menu ${dropdownOpen2 ? 'show' : ''}`}>
-            <Link to={`/leadership`} onClick={toggleMenu}>Leadership</Link>
+          <Link to={`/company`} onClick={toggleMenu}>Company Profile</Link>
+          <Link to={`/leadership`} onClick={toggleMenu}>Leadership</Link>
             <Link to={`/awards`} onClick={toggleMenu}>Awards</Link>
           </div>
         </div>

@@ -7,6 +7,9 @@ footer{
     text-align: center;
     padding: 80px 80px 0px 80px ;
 }
+footer .sml-icon{
+    color: #fff;
+}
 footer .map-details.di-none{
     display: none;
 }
@@ -54,6 +57,11 @@ letter-spacing: 3px;
 margin-bottom: 20px;
 color: #fff;
 font-family: 'inter';
+}
+
+footer .opening-date{
+    
+font-size: 16px;
 }
 footer .map-details{
     margin: 40px 0;

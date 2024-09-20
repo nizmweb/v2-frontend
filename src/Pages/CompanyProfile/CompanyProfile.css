@@ -1,0 +1,30 @@
+.profilec{
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+.profilec .img-div{
+    background: #000;
+    height: 100vh;
+    padding-bottom: 40px;
+}
+.profilec .img-div img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@media (max-width:768px){
+    .profilec{
+        background: #000;}
+    .profilec .img-div{
+        background: #000;
+        height: auto;
+    }
+    
+.profilec .img-div img{
+    margin-top: 80px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+}
