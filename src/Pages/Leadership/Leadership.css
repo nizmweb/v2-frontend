@@ -65,6 +65,8 @@ text-align: center;
 }
 .leadership .leader img{
     border-radius: 12px 0 0 12px;
+    height: 100%;
+    width: auto;
 }
 .leadership .leader .bio{
     padding: 0 30px;
@@ -76,18 +78,19 @@ text-align: center;
     justify-content: start;
 }
 .leadership .leader h1{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     letter-spacing: 3px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .leadership .leader p{
-    font-size: 18px;
+    font-size: 16px;
     width: 80%;
     letter-spacing: 2px;
     text-align: left;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 @media (max-width:768px) {
     .leadership .header{

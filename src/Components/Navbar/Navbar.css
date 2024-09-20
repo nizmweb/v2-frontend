@@ -49,6 +49,10 @@ nav .menu a {
     font-size: 1em;
     position: relative;
 }
+nav .menu .short-sub-title{
+    
+    font-size: 1em;
+}
 
 nav .menu a::before {
     content: "";
