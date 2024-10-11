@@ -94,7 +94,15 @@ footer .copyright .portfolio{
     position:absolute;
     right: 20px;
 }
-
+footer .social-icons-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+footer .social-icons-footer a{
+    color: #fff;
+}
 @media (max-width:768px) {
     footer{
         background: #000;
@@ -186,6 +194,13 @@ footer .copyright .portfolio{
         margin-bottom: 20px;
         color: #fff;
     }
+    
+footer .social-icons-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
 }
 
 

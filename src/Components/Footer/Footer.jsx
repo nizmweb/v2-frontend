@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { CiMobile2 } from "react-icons/ci";
+import { FaFacebook, FaInstagram, FaPinterest, FaYoutube } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 
 const Footer = ({map}) => {
   return (
@@ -46,6 +48,13 @@ const Footer = ({map}) => {
         <div className="row">
           <h3 className="sub-title">Opening Hours</h3>
           <p className="opening-date">Mon-Sun: 10:00 am to 07:00 pm</p>
+          <p className="social-icons-footer"> 
+          <a href="https://www.facebook.com/V2HoldingsHDPL"><FaFacebook  /></a>
+          <a href="https://www.instagram.com/v2holdingshdpl/"><FaInstagram  /></a>
+          <a href="https://www.youtube.com/@V2HoldingsHDPL"><FaYoutube  /></a>
+          <a href="https://x.com/V2HoldingsHDPL"><FaX  /></a>
+          <a href="https://in.pinterest.com/v2holdingshdpl/"><FaPinterest  /></a>
+             </p>
         </div>
       </div>
       <div className={`map-details ${map!=="home"?'di-none':''}`}>
