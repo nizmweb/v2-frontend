@@ -71,7 +71,7 @@ const Footer = ({map}) => {
       </div>
       <div className="copyright">
         <p >@ 2024 Official website of V2holdings HDPL | All Rights Reserved</p>
-        {/* <p className="portfolio"> Developed by <a href="https://sheikhnizam.xyz">Sheikh Nizam</a> </p> */}
+        <p className="portfolio"> Developed by <a href="https://sheikhnizam.xyz">Sheikh Nizam</a> </p>
       </div>
     </footer>
   );
